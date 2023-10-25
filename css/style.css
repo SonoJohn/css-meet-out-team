@@ -30,8 +30,9 @@ img {
 
 .col {
     background-color: rgb(0, 0, 59);
-    width: calc(100% / 3);
-
+    width: calc(100% / 3 - 10px);
+    margin-top: 20px;
+    margin-left: 5px;
 }
 
 a {
@@ -52,7 +53,7 @@ a {
 
 .main-section {
     text-align: center;
-    border: solid green;
+    /* border: solid green; */
 }
 
 h2 {
@@ -62,3 +63,15 @@ h2 {
 }
 
 /* GRID SECTION */
+
+.col {
+    display: inline-block;
+}
+
+.grid {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    /* border: solid 2px red; */
+}
