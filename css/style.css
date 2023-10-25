@@ -5,22 +5,40 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+
 body {
     font-family: 'Roboto', sans-serif;
     font-family: 'Tilt Neon', sans-serif;
-
-
 }
 
-/* COMMON */
-
-
-/* MAIN */
 .main-container {
-    width: 80%;
+    width: 70%;
     max-width: 1100px;
     margin: 0 auto;
+    margin-top: 2rem;
 }
+
+.info {
+    color: aliceblue;
+}
+
+.col {
+    border: solid blue;
+    background-color: darkblue;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+/* MAIN */
 
 .main-section {
     text-align: center;
@@ -32,3 +50,5 @@ h2 {
     color: rgb(231, 92, 173);
     margin-bottom: 20px;
 }
+
+/* GRID SECTION */
